@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <title>AIM</title>
+  </head>
+  <body class="global home">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+                <svg width="79" height="34" viewBox="0 0 79 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0221 9.99219C14.2262 9.99219 16.2585 10.334 18.119 11.0177C19.9796 11.7014 21.4394 12.648 22.4985 13.8313C23.5576 15.0146 24.1015 16.3294 24.1015 17.723V32.7903C24.1015 33.3688 23.7866 33.6318 23.1855 33.6318H15.8864C15.2566 33.6318 14.9704 33.3425 14.9704 32.7903V31.9752C14.9704 31.8174 14.9418 31.7385 14.8559 31.7122C14.77 31.6859 14.6841 31.7122 14.541 31.8437C13.9972 32.58 13.2243 33.1322 12.2511 33.474C11.2779 33.8159 10.047 33.9999 8.58722 33.9999C5.92518 33.9999 3.83562 33.4477 2.28992 32.317C0.77285 31.1863 0 29.556 0 27.3998C0 25.1384 0.858721 23.3766 2.60479 22.167C4.35086 20.9311 6.86977 20.3263 10.1902 20.3263H14.5696C14.8273 20.3263 14.9704 20.2211 14.9704 19.9582V19.2745C14.9704 18.6434 14.7128 18.1438 14.2262 17.7493C13.7109 17.3549 13.0526 17.1708 12.1938 17.1708C11.65 17.1708 11.1348 17.2497 10.7054 17.4075C10.276 17.5653 9.96117 17.7756 9.7608 18.0649C9.56044 18.3015 9.41732 18.4856 9.2742 18.5645C9.13108 18.6434 8.95933 18.6697 8.70171 18.6434L1.20221 17.7493C0.62973 17.6968 0.343489 17.4601 0.372113 17.0657C0.515233 15.7246 1.08771 14.515 2.1468 13.4369C3.20589 12.3588 4.57985 11.5173 6.32592 10.8862C7.98611 10.3077 9.90392 9.99219 12.0221 9.99219ZM11.3924 28.1623C12.4228 28.1623 13.2816 27.8994 13.9399 27.3998C14.5983 26.9002 14.9418 26.2165 14.9418 25.3487V24.9017C14.9418 24.665 14.7986 24.5336 14.541 24.5336H12.2511C10.1902 24.5336 9.18832 25.1384 9.18832 26.3742C9.18832 26.9002 9.38869 27.3472 9.7608 27.6627C10.1329 28.0046 10.6768 28.1623 11.3924 28.1623Z" fill="#38B6FF"/>
+                <path d="M32.311 9.41377C30.7367 9.41377 29.4772 8.99304 28.504 8.12529C27.5308 7.25754 27.0442 6.12684 27.0442 4.70688C27.0442 3.28693 27.5308 2.18252 28.504 1.31477C29.4772 0.447023 30.7367 0 32.311 0C33.914 0 35.1734 0.447023 36.1466 1.31477C37.0912 2.18252 37.5778 3.31323 37.5778 4.70688C37.5778 6.10054 37.0912 7.25754 36.1466 8.12529C35.1734 8.96675 33.8853 9.41377 32.311 9.41377ZM28.6471 33.6319C28.0174 33.6319 27.7312 33.3426 27.7312 32.7904V11.2019C27.7312 10.6234 28.046 10.3341 28.6471 10.3341H35.9463C36.576 10.3341 36.8622 10.6234 36.8622 11.2019V32.7904C36.8622 33.3689 36.5474 33.6319 35.9463 33.6319H28.6471Z" fill="#5CE1E6"/>
+                <path d="M70.4928 9.99236C73.0689 9.99236 75.0726 10.7286 76.5038 12.2012C77.935 13.6737 78.6506 15.7248 78.6506 18.3806V32.7905C78.6506 33.369 78.3358 33.632 77.7347 33.632H70.4069C69.7772 33.632 69.4909 33.3427 69.4909 32.7905V20.195C69.4909 19.3009 69.2619 18.5647 68.7753 18.0125C68.2887 17.4603 67.6876 17.1973 66.9434 17.1973C66.1705 17.1973 65.5408 17.4866 65.0542 18.0125C64.5676 18.5647 64.3386 19.3009 64.3386 20.195V32.7905C64.3386 33.369 64.0237 33.632 63.4226 33.632H56.1235C55.4938 33.632 55.2075 33.3427 55.2075 32.7905V20.195C55.2075 19.3009 54.9499 18.5647 54.4633 18.0125C53.9481 17.4603 53.2897 17.1973 52.4882 17.1973C51.8013 17.1973 51.2288 17.3814 50.7708 17.7758C50.2842 18.1702 49.9693 18.6962 49.8262 19.3535C49.7976 19.485 49.7689 19.6165 49.7689 19.8006V32.7905C49.7689 33.369 49.4541 33.632 48.853 33.632H41.4107C40.781 33.632 40.4948 33.3427 40.4948 32.7905V11.202C40.4948 10.6235 40.8096 10.3342 41.4107 10.3342H48.7385C49.3682 10.3342 49.6545 10.6235 49.6545 11.202V12.9374C49.6545 13.1215 49.7117 13.2267 49.7976 13.2267C49.8834 13.253 49.9979 13.1741 50.0838 13.0163C51.3146 10.9916 53.347 9.96606 56.1807 9.96606C57.8123 9.96606 59.2435 10.3079 60.4743 10.9653C61.7052 11.649 62.6498 12.5956 63.3081 13.8578C63.3654 14.0156 63.4513 14.0682 63.5657 14.0682C63.6516 14.0419 63.7375 13.963 63.8234 13.8315C65.0828 11.2545 67.2869 9.99236 70.4928 9.99236Z" fill="#7ED957"/>
+                </svg>  
+          </a>
+          <div class="navbar__btns">
+            <div class="navbar__cta--hidden">
+                <button class="btn btn-primary btn--custom btn--navbar">Get Demo</button>
+              </div>
+              <button class="navbar-toggler navbar-toggler--custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          </div>
+          <div class="menu collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our clients</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team Members</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar__cta--showed">
+            <button class="btn btn-primary btn--custom btn--navbar">Get Demo</button>
+         </div>
+        </div>
+      </nav>
+
+      <main class="main">
+
+        <section class="hero">
+            <div class="container">
+               <div class="hero__inner">
+                   <div class="row">
+                       <div class="col-lg-7 col-12">
+                           <div class="hero__content">
+                               <h1 class="primary-title title__hero">Leading practices rely on <span class="title-color-change">Accountable Inpatient Medicine</span></h1>
+                               <p class="primary__text hero__text">AIM is a hospitalist group that serves primary care physicians. By utilizing our free of cost hospitalist services, PCP's can save time, increase their outpatient volume, all while maintaining open lines of communication with our inpatient team. AIM advocates for their clients in the inpatient setting. We do not have an outpatient practice, guaranteeing PCP patient retention upon hospital discharge.</p>
+                               <button class="btn btn-primary btn--custom btn-primary--custom">Get Demo</button>
+                           </div>
+                       </div>
+                       <div class="col-lg-5 col-12">
+                            <div class="swiper hero__swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div class="hero__img">
+                                        <img src="img/img__hero.png" alt="hero image">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="hero__img">
+                                        <img src="img/img__hero.png" alt="hero image">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="hero__img">
+                                        <img src="img/img__hero.png" alt="hero image">
+                                    </div>
+                                </div>
+                                </div>
+                            
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+               <div class="testimonials__inner">
+                   <div class="row">
+                      <div class="col-lg-6">
+                        <div class="testimonials__items">
+                            <div class="row">
+                                 <div class="col-lg-6">
+                                    <div class="testimonials__items--col-1">
+                                        <div class="testimonial__item">
+                                            <div class="testimonial__rating">
+                                                <img src="img/icons/icn__stars.svg" alt="icon stars">
+                                            </div>
+                                            <p class="testimonial__text">“I’m glad to have found a hospitalist service that not only treat my patients with skill and care but communicates with me in real time about their progress.  Dr. Houston, Dr. Coatti, and their team have only received praise from my patients when I see them for their post-hospitalization follow up.” </p>
+                                            <p class="testimonial_dr">Dr. Achilles Kalnoky</p>
+                                        </div>
+                                        <div class="testimonial__item">
+                                            <div class="testimonial__rating">
+                                                <img src="img/icons/icn__stars.svg" alt="icon stars">
+                                            </div>
+                                            <p class="testimonial__text">“Working with AIM has been a breeze. They have been professional, extremely timely, and efficient. I have an open line of communication with them at all times and they give me constant direct input and info about my patients. As a specialist it is imperative to be in constant contact with the hospitalist. I literally have them on speed dial. I highly recommend them.” </p>
+                                            <p class="testimonial_dr">Dr. Bahram Ahmadi</p>
+                                        </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6">
+                                    <div class="testimonials__items--col-2">
+                                        <div class="testimonial__item">
+                                            <div class="testimonial__rating">
+                                                <img src="img/icons/icn__stars.svg" alt="icon stars">
+                                            </div>
+                                            <p class="testimonial__text">“AIM has provided quality coverage for my patients and quick and excellent feedback keeping us in the loop regarding care and decision making. Great bridge between inpatient and outpatient care for the benefit of our patient population.”</p>
+                                            <p class="testimonial_dr">Dr. Arthur Portnow</p>
+                                        </div>
+                                        <div class="testimonial__item">
+                                            <div class="testimonial__rating">
+                                                <img src="img/icons/icn__stars.svg" alt="icon stars">
+                                            </div>
+                                            <p class="testimonial__text">“I have had the unique opportunity to follow Dr. Houston since his student years through residency and now as an effective and competent hospitalist. He, Dr. Coatti, and their fellow providers have put together a dedicated professional communicative team to help my hospitalized patients. My patients relay how pleased they are that they have an in-house doctor who actually speaks to them. Thank you, and stay humble and kind.” </p>
+                                            <p class="testimonial_dr">Dr. Anthony Montanaro</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                      </div>
+                      <div class="col-lg-6 col-12">
+                        <div class="testimonials__content">
+                            <h2 class="secondary-title title--custom">Your inpatient practice management <span class="title-color-change">solution</span></h2>
+                            <div class="testimonial__content--hidden">
+                                <div class="testimonial__rating">
+                                    <img src="img/icons/icn__stars.svg" alt="icon stars">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-primary--custom btn--custom">Get Demo</button> 
+                            </div>
+                            <div class="swiper testimonials__swiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <div class="testimonial__item">
+                                        <div class="testimonial__rating">
+                                            <img src="img/icons/icn__stars.svg" alt="icon stars">
+                                        </div>
+                                        <p class="testimonial__text">“I have had the unique opportunity to follow Dr. Houston since his student years through residency and now as an effective and competent hospitalist. He, Dr. Coatti, and their fellow providers have put together a dedicated professional communicative team to help my hospitalized patients. My patients relay how pleased they are that they have an in-house doctor who actually speaks to them. Thank you, and stay humble and kind.” </p>
+                                        <p class="testimonial_dr">Dr. Anthony Montanaro</p>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="testimonial__item">
+                                        <div class="testimonial__rating">
+                                            <img src="img/icons/icn__stars.svg" alt="icon stars">
+                                        </div>
+                                        <p class="testimonial__text">“I’m glad to have found a hospitalist service that not only treat my patients with skill and care but communicates with me in real time about their progress.  Dr. Houston, Dr. Coatti, and their team have only received praise from my patients when I see them for their post-hospitalization follow up.” </p>
+                                        <p class="testimonial_dr">Dr. Achilles Kalnoky</p>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="testimonial__item">
+                                        <div class="testimonial__rating">
+                                            <img src="img/icons/icn__stars.svg" alt="icon stars">
+                                        </div>
+                                        <p class="testimonial__text">“Working with AIM has been a breeze. They have been professional, extremely timely, and efficient. I have an open line of communication with them at all times and they give me constant direct input and info about my patients. As a specialist it is imperative to be in constant contact with the hospitalist. I literally have them on speed dial. I highly recommend them.” </p>
+                                        <p class="testimonial_dr">Dr. Bahram Ahmadi</p>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="testimonial__item">
+                                        <div class="testimonial__rating">
+                                            <img src="img/icons/icn__stars.svg" alt="icon stars">
+                                        </div>
+                                        <p class="testimonial__text">“AIM has provided quality coverage for my patients and quick and excellent feedback keeping us in the loop regarding care and decision making. Great bridge between inpatient and outpatient care for the benefit of our patient population.”</p>
+                                        <p class="testimonial_dr">Dr. Arthur Portnow</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <div class="swiper-pagination"></div>
+                              </div>
+                            
+                         </div>
+                      </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="achieve-more">
+            <div class="container">
+                <div class="achieve-more__inner">
+                    <h1 class="primary-title title--custom">A single healthcare platform to <span class="title-color-change">achieve more</span> with less work</h1>
+                    <p class="primary__text">AIM offers the most complete inpatient practice management platform for outpatient specialists. We deliver a platform that enhances PCP engagements with our inpatient providers and transitional care team, streamlining hospital admissions, discharges, and TCM visits.</p>
+                </div>
+            </div>
+        </section>
+       
+        <section class="extra-cost">
+            <div class="container">
+                <h1 class="primary-title title--custom extra-cost__title">It’s like <span class="title-color-change">having extra</span> staff without the extra cost</h1>
+                <div class="extra-cost__inner">
+                    <div class="swiper extra-cost__swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="item-component">
+                                <div class="item-component__img">
+                                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path opacity="0.2" d="M29.6875 6.25V17.1875H40.6266L29.6875 6.25Z" fill="#38B6FF"/>
+                                     <path d="M39.0626 43.75H10.9374C10.523 43.75 10.1256 43.5854 9.83261 43.2923C9.5396 42.9993 9.37499 42.6019 9.375 42.1875V7.8125C9.37499 7.39811 9.5396 7.00069 9.83261 6.70766C10.1256 6.41464 10.523 6.25001 10.9374 6.25H29.688L40.625 17.1875V42.1875C40.625 42.6019 40.4604 42.9993 40.1674 43.2923C39.8744 43.5854 39.477 43.75 39.0626 43.75V43.75Z" stroke="#38B6FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M29.6875 6.25V17.1875H40.6266" stroke="#38B6FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     </svg>
+                                </div>
+                                <div class="item-component__content">
+                                    Sign a non-binding coverage agreement with us and start saving time in the hospital thus increase your outpatient volume.
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="item-component">
+                                <div class="item-component__img">
+                                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path opacity="0.2" d="M7.8125 17.1875H42.1875V9.375C42.1875 8.9606 42.0229 8.56317 41.7299 8.27015C41.4368 7.97712 41.0394 7.8125 40.625 7.8125H9.375C8.9606 7.8125 8.56317 7.97712 8.27015 8.27015C7.97712 8.56317 7.8125 8.9606 7.8125 9.375V17.1875Z" fill="#7ED957"/>
+                                     <path d="M40.625 7.8125H9.375C8.51206 7.8125 7.8125 8.51206 7.8125 9.375V40.625C7.8125 41.4879 8.51206 42.1875 9.375 42.1875H40.625C41.4879 42.1875 42.1875 41.4879 42.1875 40.625V9.375C42.1875 8.51206 41.4879 7.8125 40.625 7.8125Z" stroke="#7ED957" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M34.375 4.6875V10.9375" stroke="#7ED957" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M15.625 4.6875V10.9375" stroke="#7ED957" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M7.8125 17.1875H42.1875" stroke="#7ED957" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M17.9688 24.9993H23.4375L20.3125 28.9055C20.8263 28.9055 21.3322 29.0322 21.7854 29.2744C22.2386 29.5166 22.625 29.8668 22.9106 30.294C23.1961 30.7212 23.3719 31.2122 23.4224 31.7235C23.4729 32.2348 23.3965 32.7507 23.2 33.2255C23.0035 33.7003 22.693 34.1193 22.2959 34.4454C21.8988 34.7715 21.4275 34.9947 20.9236 35.0952C20.4196 35.1957 19.8987 35.1703 19.407 35.0214C18.9152 34.8725 18.4677 34.6047 18.1041 34.2416" stroke="#7ED957" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M28.125 27.343L31.25 24.9993V35.1555" stroke="#7ED957" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     </svg>                                    
+                                </div>
+                                <div class="item-component__content">
+                                    Schedule an informative presentation with our team.
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="item-component">
+                                <div class="item-component__img">
+                                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path opacity="0.2" d="M17.9803 34.354C18.6716 36.3165 19.7895 38.1013 21.2536 39.5797C22.7176 41.0582 24.4913 42.1936 26.4469 42.9041C28.4025 43.6147 30.4914 43.8826 32.5631 43.6888C34.6347 43.4949 36.6376 42.844 38.4274 41.7829L38.4274 41.7828L43.2843 43.1705C43.4852 43.2279 43.6979 43.2305 43.9002 43.1781C44.1025 43.1257 44.2871 43.0201 44.4349 42.8724C44.5826 42.7246 44.6882 42.54 44.7406 42.3377C44.7931 42.1354 44.7904 41.9227 44.733 41.7218L43.3453 36.8649L43.3454 36.8649C44.5784 34.7855 45.2547 32.4235 45.309 30.0066C45.3632 27.5897 44.7937 25.1997 43.6554 23.067C42.517 20.9343 40.8482 19.1311 38.81 17.8311C36.7718 16.5312 34.4329 15.7785 32.0191 15.6457L32.0196 15.6455C32.7633 17.7663 32.9883 20.0344 32.6757 22.26C32.3631 24.4856 31.522 26.604 30.2227 28.4378C28.9235 30.2717 27.2039 31.7677 25.2079 32.8006C23.2119 33.8336 20.9975 34.3734 18.75 34.375C18.4918 34.375 18.2352 34.3681 17.9803 34.3543V34.354Z" fill="white"/>
+                                     <path d="M6.65454 27.4899C4.90737 24.5446 4.2955 21.0628 4.93382 17.6982C5.57214 14.3337 7.41674 11.3179 10.1213 9.21721C12.8258 7.11648 16.2041 6.0753 19.622 6.28918C23.0398 6.50306 26.262 7.95729 28.6836 10.3788C31.1051 12.8003 32.5593 16.0225 32.7732 19.4404C32.9871 22.8582 31.946 26.2366 29.8452 28.9411C27.7445 31.6456 24.7287 33.4902 21.3642 34.1286C17.9997 34.7669 14.5179 34.1551 11.5726 32.4079L11.5726 32.4078L6.71568 33.7954C6.51474 33.8529 6.3021 33.8555 6.09979 33.8031C5.89749 33.7506 5.71288 33.6451 5.56511 33.4973C5.41733 33.3495 5.31176 33.1649 5.25934 32.9626C5.20692 32.7603 5.20955 32.5477 5.26696 32.3467L6.65466 27.4898L6.65454 27.4899Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M17.9803 34.3538C18.6716 36.3163 19.7895 38.1011 21.2536 39.5796C22.7176 41.0581 24.4913 42.1935 26.4469 42.904C28.4025 43.6145 30.4914 43.8825 32.5631 43.6886C34.6347 43.4947 36.6376 42.8438 38.4274 41.7828L38.4274 41.7827L43.2843 43.1703C43.4852 43.2278 43.6979 43.2304 43.9002 43.178C44.1025 43.1255 44.2871 43.02 44.4349 42.8722C44.5826 42.7244 44.6882 42.5398 44.7406 42.3375C44.7931 42.1352 44.7904 41.9226 44.733 41.7216L43.3453 36.8647L43.3454 36.8648C44.5784 34.7854 45.2547 32.4233 45.309 30.0065C45.3632 27.5896 44.7937 25.1995 43.6554 23.0669C42.517 20.9342 40.8482 19.1309 38.81 17.831C36.7718 16.531 34.4329 15.7783 32.0191 15.6455" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     </svg>
+                                     
+                                </div>
+                                <div class="item-component__content">
+                                    Boost your inpatient presence with our HIPAA compliant messaging system and have control over your patients with our online, anytime messaging experience.
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="item-component">
+                                <div class="item-component__img">
+                                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path opacity="0.2" d="M36.7188 18.7495C39.7391 18.7495 42.1875 16.3011 42.1875 13.2808C42.1875 10.2605 39.7391 7.81201 36.7188 7.81201C33.6984 7.81201 31.25 10.2605 31.25 13.2808C31.25 16.3011 33.6984 18.7495 36.7188 18.7495Z" fill="#5CE1E6"/>
+                                     <path d="M13.2789 31.25V29.6875C13.2789 28.4443 13.7728 27.2521 14.6518 26.373C15.5309 25.494 16.7231 25.0001 17.9663 25.0001L32.029 24.9999C33.2721 24.9999 34.4644 24.506 35.3434 23.627C36.2225 22.7479 36.7163 21.5557 36.7164 20.3125V18.75" stroke="#5CE1E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M13.2789 18.75V31.25" stroke="#5CE1E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M13.2812 42.1875C16.3016 42.1875 18.75 39.7391 18.75 36.7188C18.75 33.6984 16.3016 31.25 13.2812 31.25C10.2609 31.25 7.8125 33.6984 7.8125 36.7188C7.8125 39.7391 10.2609 42.1875 13.2812 42.1875Z" stroke="#5CE1E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M36.7188 18.7495C39.7391 18.7495 42.1875 16.3011 42.1875 13.2808C42.1875 10.2605 39.7391 7.81201 36.7188 7.81201C33.6984 7.81201 31.25 10.2605 31.25 13.2808C31.25 16.3011 33.6984 18.7495 36.7188 18.7495Z" stroke="#5CE1E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M13.2812 18.7495C16.3016 18.7495 18.75 16.3011 18.75 13.2808C18.75 10.2605 16.3016 7.81201 13.2812 7.81201C10.2609 7.81201 7.8125 10.2605 7.8125 13.2808C7.8125 16.3011 10.2609 18.7495 13.2812 18.7495Z" stroke="#5CE1E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                     </svg>
+                                     
+                                </div>
+                                <div class="item-component__content">
+                                    Streamline communication with our transitional care team. See and respond to notifications on hospital admissions and discharges.
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>                 
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+      <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="row">
+                        <div class="col-lg-3 col-12">
+                            <div class="footer__logo">
+                                    <svg width="79" height="34" viewBox="0 0 79 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.0221 9.99219C14.2262 9.99219 16.2585 10.334 18.119 11.0177C19.9796 11.7014 21.4394 12.648 22.4985 13.8313C23.5576 15.0146 24.1015 16.3294 24.1015 17.723V32.7903C24.1015 33.3688 23.7866 33.6318 23.1855 33.6318H15.8864C15.2566 33.6318 14.9704 33.3425 14.9704 32.7903V31.9752C14.9704 31.8174 14.9418 31.7385 14.8559 31.7122C14.77 31.6859 14.6841 31.7122 14.541 31.8437C13.9972 32.58 13.2243 33.1322 12.2511 33.474C11.2779 33.8159 10.047 33.9999 8.58722 33.9999C5.92518 33.9999 3.83562 33.4477 2.28992 32.317C0.77285 31.1863 0 29.556 0 27.3998C0 25.1384 0.858721 23.3766 2.60479 22.167C4.35086 20.9311 6.86977 20.3263 10.1902 20.3263H14.5696C14.8273 20.3263 14.9704 20.2211 14.9704 19.9582V19.2745C14.9704 18.6434 14.7128 18.1438 14.2262 17.7493C13.7109 17.3549 13.0526 17.1708 12.1938 17.1708C11.65 17.1708 11.1348 17.2497 10.7054 17.4075C10.276 17.5653 9.96117 17.7756 9.7608 18.0649C9.56044 18.3015 9.41732 18.4856 9.2742 18.5645C9.13108 18.6434 8.95933 18.6697 8.70171 18.6434L1.20221 17.7493C0.62973 17.6968 0.343489 17.4601 0.372113 17.0657C0.515233 15.7246 1.08771 14.515 2.1468 13.4369C3.20589 12.3588 4.57985 11.5173 6.32592 10.8862C7.98611 10.3077 9.90392 9.99219 12.0221 9.99219ZM11.3924 28.1623C12.4228 28.1623 13.2816 27.8994 13.9399 27.3998C14.5983 26.9002 14.9418 26.2165 14.9418 25.3487V24.9017C14.9418 24.665 14.7986 24.5336 14.541 24.5336H12.2511C10.1902 24.5336 9.18832 25.1384 9.18832 26.3742C9.18832 26.9002 9.38869 27.3472 9.7608 27.6627C10.1329 28.0046 10.6768 28.1623 11.3924 28.1623Z" fill="#38B6FF"/>
+                                    <path d="M32.311 9.41377C30.7367 9.41377 29.4772 8.99304 28.504 8.12529C27.5308 7.25754 27.0442 6.12684 27.0442 4.70688C27.0442 3.28693 27.5308 2.18252 28.504 1.31477C29.4772 0.447023 30.7367 0 32.311 0C33.914 0 35.1734 0.447023 36.1466 1.31477C37.0912 2.18252 37.5778 3.31323 37.5778 4.70688C37.5778 6.10054 37.0912 7.25754 36.1466 8.12529C35.1734 8.96675 33.8853 9.41377 32.311 9.41377ZM28.6471 33.6319C28.0174 33.6319 27.7312 33.3426 27.7312 32.7904V11.2019C27.7312 10.6234 28.046 10.3341 28.6471 10.3341H35.9463C36.576 10.3341 36.8622 10.6234 36.8622 11.2019V32.7904C36.8622 33.3689 36.5474 33.6319 35.9463 33.6319H28.6471Z" fill="#5CE1E6"/>
+                                    <path d="M70.4928 9.99236C73.0689 9.99236 75.0726 10.7286 76.5038 12.2012C77.935 13.6737 78.6506 15.7248 78.6506 18.3806V32.7905C78.6506 33.369 78.3358 33.632 77.7347 33.632H70.4069C69.7772 33.632 69.4909 33.3427 69.4909 32.7905V20.195C69.4909 19.3009 69.2619 18.5647 68.7753 18.0125C68.2887 17.4603 67.6876 17.1973 66.9434 17.1973C66.1705 17.1973 65.5408 17.4866 65.0542 18.0125C64.5676 18.5647 64.3386 19.3009 64.3386 20.195V32.7905C64.3386 33.369 64.0237 33.632 63.4226 33.632H56.1235C55.4938 33.632 55.2075 33.3427 55.2075 32.7905V20.195C55.2075 19.3009 54.9499 18.5647 54.4633 18.0125C53.9481 17.4603 53.2897 17.1973 52.4882 17.1973C51.8013 17.1973 51.2288 17.3814 50.7708 17.7758C50.2842 18.1702 49.9693 18.6962 49.8262 19.3535C49.7976 19.485 49.7689 19.6165 49.7689 19.8006V32.7905C49.7689 33.369 49.4541 33.632 48.853 33.632H41.4107C40.781 33.632 40.4948 33.3427 40.4948 32.7905V11.202C40.4948 10.6235 40.8096 10.3342 41.4107 10.3342H48.7385C49.3682 10.3342 49.6545 10.6235 49.6545 11.202V12.9374C49.6545 13.1215 49.7117 13.2267 49.7976 13.2267C49.8834 13.253 49.9979 13.1741 50.0838 13.0163C51.3146 10.9916 53.347 9.96606 56.1807 9.96606C57.8123 9.96606 59.2435 10.3079 60.4743 10.9653C61.7052 11.649 62.6498 12.5956 63.3081 13.8578C63.3654 14.0156 63.4513 14.0682 63.5657 14.0682C63.6516 14.0419 63.7375 13.963 63.8234 13.8315C65.0828 11.2545 67.2869 9.99236 70.4928 9.99236Z" fill="#7ED957"/>
+                                    </svg>                                    
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-12">
+                            <div class="footer__links">
+                                 <ul class="footer__nav">
+                                     <li class="footer__item"><a href="" class="footer__link text-decoration-none">Home</a></li>
+                                     <li class="footer__item"><a href="" class="footer__link text-decoration-none">About Us</a></li>
+                                     <li class="footer__item"><a href="" class="footer__link text-decoration-none">Our Clients</a></li>
+                                     <li class="footer__item"><a href="" class="footer__link text-decoration-none">Team Members</a></li>
+                                     <li class="footer__item"><a href="" class="footer__link text-decoration-none">Locations</a></li>
+                                     <li class="footer__item"><a href="" class="footer__link text-decoration-none">Contact Us</a></li>
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </footer>
+
+      <div class="chat">
+         <img src="img/icons/icn__chat-client.svg" alt="icone chat client">
+      </div>
+
+      <div class="aim-logo1">
+          <img src="img/aim__logo.png" alt="aim logo">
+      </div>
+
+      <div class="aim-logo2">
+        <img src="img/aim__logo2.png" alt="aim logo">
+      </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
